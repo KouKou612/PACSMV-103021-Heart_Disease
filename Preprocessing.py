@@ -1,8 +1,5 @@
 from config import *
 
-# age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  target
-df = pd.read_csv('PACSMV-103021-Heart_Disease/Heart_disease_statlog.csv')
-
 
 # extend abbreviation of the attributes
 df.columns = ['age', 'sex', 'chest_pain_type', 'resting_blood_pressure', 'cholesterol',
