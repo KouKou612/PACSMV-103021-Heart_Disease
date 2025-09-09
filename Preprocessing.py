@@ -5,7 +5,7 @@ from config import *
 df = pd.read_csv('Heart_disease_statlog.csv')
 
 
-# extend abbreviation of the attributes
+# expand abbreviation of the attributes
 df.columns = ['age', 'sex', 'chest_pain_type', 'resting_blood_pressure', 'cholesterol',
               'fasting_blood_sugar', 'rest_ecg', 'max_heart_rate_achieved',
               'exercise_induced_angina', 'st_depression', 'st_slope','ca','thalassemia','target']

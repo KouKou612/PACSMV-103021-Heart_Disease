@@ -80,7 +80,7 @@ for i, p_val in enumerate(df_p_sorted['p-value']):
     
 fig.suptitle('Nominal Data Correlations', fontsize=16, fontweight='bold')
 
-comment_text = "fasting_blood_sugar is not strong and significant, rest_ecg is not Strong, these two will not be used"
+comment_text = "fasting_blood_sugar is not strong and significant, rest_ecg is not Strong, these two should have low feature importance"
 fig.text(0.5, 0.01, comment_text, ha='center', va='bottom', fontsize=10, 
          style='italic', wrap=True, bbox=dict(boxstyle="round,pad=0.5", 
          facecolor="lightgray", alpha=0.7))
